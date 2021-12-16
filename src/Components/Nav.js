@@ -10,7 +10,7 @@ class Nav extends Component {
                 <div>
                     <div>
                         <Link to='/'>
-                            <img src=''></img>
+                            <img src={BlackPantherImage} alt='Black-Panther' height='50px' width='50px'></img>
                         </Link>
                     </div>
                     <ul>
