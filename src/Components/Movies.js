@@ -44,7 +44,7 @@ class Movies extends Component {
         })
         const chosenMovieDetails =
             <div>
-                <p>{this.state.selectedMovie.title}</p>
+                <h2>{this.state.selectedMovie.title}</h2>
                 <p>Released Date:{this.state.selectedMovie.release_date}</p>
                 <p>{this.state.selectedMovie.description}</p>
             </div>
@@ -62,6 +62,7 @@ class Movies extends Component {
                 {movieDropdown}
             </select>
             {this.state.userChoseAMovie && <div>{chosenMovieDetails} </div>}
+            <h2></h2>
 
 
         </div >
